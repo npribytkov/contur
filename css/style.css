@@ -291,6 +291,7 @@ section.model .model-item{
     justify-content: space-between;
     padding: 0 50px;
     height: 100%;
+    cursor: pointer;
 }
 section.model .model-item .img img{
     margin: 0 auto;
@@ -516,10 +517,14 @@ img {
     max-width: 100%;
 }
 .model-detail{
+    display: none;
+}
+.model-detail.show{
     display: flex;
     box-shadow: 0px 5px 5px 0px rgba(131, 131, 131, 0.75);
     margin-bottom: 25px;
     padding-right: 50px;
+
 }
 
 .model-detail .left{
